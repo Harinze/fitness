@@ -89,3 +89,44 @@
 //     return this.notes[state];
 //   }
 // }
+
+
+
+// function bonAppetit(bill, k, b) {
+//     // Write your code here
+
+//  const actualBill = bill.filter((_,index) => index != k).reduce((num, acc)=> num+ acc, 0)
+
+//  const actualBillDiv = actualBill / 2
+
+//  if (b > actualBillDiv){
+//     //const totalBill = (actualBill + k)/2
+//     console.log(b - actualBillDiv )
+//  }
+//  else{console.log('bon appetit')}
+    
+// }
+
+
+// console.log(bonAppetit([2,4,6],2,6))
+
+
+
+// function sockMerchant(n, ar) {
+//     // Write your code here
+//    let count= 0
+//    const makePairs = {}
+   
+//    for (let i = 0; i < n; i++) {
+//      makePairs[ar[i]] = (makePairs[ar[i]] || 0) + 1
+
+//      if(makePairs[ar[i]] % 2 === 0){
+//       count++
+//    }
+
+//    }
+   
+//    return count
+// }
+
+// console.log(sockMerchant(9,[10, 20, 20, 10, 10, 30, 50, 10, 20])) // 3

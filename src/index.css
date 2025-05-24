@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-* {
+/* * {
   @apply box-border;
-}
+} */
 
 body {
   @apply bg-white text-black font-sans;

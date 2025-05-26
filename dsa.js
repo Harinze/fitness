@@ -130,3 +130,31 @@
 // }
 
 // console.log(sockMerchant(9,[10, 20, 20, 10, 10, 30, 50, 10, 20])) // 3
+
+
+function beautifulDays(i, j, k) {
+    // Write your code here
+    let count = 0
+    // for (let index = i; index <= j; index++) {
+    //     const reverse = parseInt(index.toString().split('').reverse().join(''))
+    
+    
+    // }
+
+    let index = i
+
+    while( index <= j){
+        
+        const reverse = parseInt(index.toString().split('').reverse().join(''))
+            if(Math.abs(index - reverse) % k === 0){
+            count++
+        }
+
+        index++
+    }
+    
+    return count
+
+}
+
+console.log(beautifulDays(20,23,6))
